@@ -1,19 +1,12 @@
 <!-- BEGIN: MAIN -->
-<div class="card-header bg-info">
-  <h3 class="card-title">
-    <i class="fas fa-puzzle-piece"></i> {PHP.L.Users}
+<div class="card-header" style="background-color: var(--bs-dark-bg-subtle);">
+<!-- About using style="background-color: var(--bs-dark-bg-subtle);" read here https://getbootstrap.com/docs/5.3/customize/color/#colors -->
+  <h3 class="card-title d-flex align-items-center">
+    <i class="fa-solid fa-user-group text-navy fs-3 flex-shrink-0"></i><span class="flex-grow-1 ms-3">{PHP.L.Users}</span>
   </h3>
-  <div class="card-tools">
-    <button type="button" class="btn btn-tool" data-card-widget="collapse">
-      <i class="fas fa-minus"></i>
-    </button>
-    <button type="button" class="btn btn-tool" data-card-widget="remove">
-      <i class="fas fa-times"></i>
-    </button>
-  </div>
 </div>
 <div class="card-body p-0">
-  <ul class="list-group list-group-flush">
+  <ul class="list-group">
     <li class="list-group-item">
       <a href="{PHP|cot_url('admin','m=config&amp;n=edit&amp;o=module&amp;p=users')}">{PHP.L.home_ql_b3_1}</a>
     </li>

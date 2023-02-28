@@ -158,8 +158,9 @@
   <!-- Right navbar links -->
   <ul class="navbar-nav ml-auto">
     <!-- Messages Menu -->
+	<!-- IF {PHP.cot_modules.pfs} -->
     <li class="nav-item">
-      <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Home}" href="{PHP|cot_url('admin')}" class="nav-link text-light <!-- IF !{PHP.m} -->active <!-- ENDIF--> d-flex align-items-center">
+      <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Private_Messages}" href="{PHP|cot_url('pm')}" class="nav-link text-light <!-- IF !{PHP.m} -->active <!-- ENDIF--> d-flex align-items-center">
         <i class="fa-solid fa-envelope-open-text fs-3 flex-shrink-0 text-primary"></i>
         <span class="flex-grow-1 d-inline-block"></span>
         <!-- IF {PHP.usr.messages} -->
@@ -169,6 +170,7 @@
         <!-- ENDIF-->
       </a>
     </li>
+	<!-- ENDIF-->
     <!-- Go Sait -->
     <li class="nav-item d-none d-sm-inline-block mx-1">
       <a id="logout" class="btn btn-block bg-gradient-success color-palette btn-lg elevation-4" href="{PHP.cfg.mainurl}" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.hea_viewsite}">

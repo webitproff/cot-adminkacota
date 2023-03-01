@@ -213,39 +213,7 @@
   </div>
   <section id="content" class="content">
     <div class="container-fluid">
-      <!-- IF {PHP.sys.uri_curr} == 'admin' AND {PHP.sys.online_location} == 'administration' -->
-      <div class="col-md-12">
-        <div class="callout callout-danger bg-navy disabled color-palette mb-5 elevation-4" style="background-color: #586c81 !important;">
-          <dl class="row">
-            <dt class="col-sm-3">{PHP.L.cfg_maintitle}</dt>
-            <dd class="col-sm-9">
-              <h3>{PHP.cfg.maintitle}</h3>
-            </dd>
-            <dt class="col-sm-3">{PHP.L.cfg_subtitle}</dt>
-            <dd class="col-sm-9">
-              <p>{PHP.cfg.subtitle}</p>
-            </dd>
-            <dt class="col-sm-3">{PHP.L.mainurl}</dt>
-            <dd class="col-sm-9">
-              <a class="text-orange" href="{PHP.cfg.mainurl}" target="_blank" title="{PHP.L.hea_viewsite}">{PHP.cfg.mainurl}</a>
-            </dd>
-            <dt class="col-sm-3">{PHP.L.System} & {PHP.L.Version}</dt>
-            <dd class="col-sm-9">
-              <p>
-                <span class="text-info">{PHP.R.copyright}</span> v. {PHP.cfg.version}
-              </p>
-            </dd>
-            <dt class="col-sm-3">{PHP.L.core_time}</dt>
-            <dd class="col-sm-9">
-              <p>
-                <span class="text-light"> {PHP|$this,cot_date("datetime_fulltext")}
-              </p>
-            </dd>
-          </dl>
-        </div>
-      </div>
-      <!-- ENDIF -->
-      <div id="ajaxBlock" class="row">
+    <div id="ajaxBlock" class="row">
         <!-- BEGIN: BODY --> {ADMIN_MAIN}
         <!-- IF {ADMIN_HELP} -->
         <div class="col-md-12">

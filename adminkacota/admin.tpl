@@ -24,7 +24,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.ext_title}" href="{PHP|cot_url('admin', 'm=extensions')}" class="nav-link text-light <!-- IF !{PHP.m} -->active <!-- ENDIF--> d-flex align-items-center">
+          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.ext_title}" href="{PHP|cot_url('admin', 'm=extensions', '&sort=cat')}" class="nav-link text-light <!-- IF !{PHP.m} -->active <!-- ENDIF--> d-flex align-items-center">
             <i class="fa-solid fa-screwdriver-wrench fs-3 flex-shrink-0 text-warning"></i>
             <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Extensions}</span>
           </a>

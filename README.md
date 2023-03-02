@@ -1,6 +1,13 @@
 # cot-adminkacota
 Admin Dashboard Theme for Cotonti Siena on BootStrap 5.3 &amp; UIkit 3, based on AdminLTE v3.2.0
 ###
+UIkit + Bootstrap != conflicts
+UIkit прекрасно соdместно работает как Bootstrap так и с другими HTML/JS/CSS фреймворками. 
+По умолчанию все классы и атрибуты в UIkit начинаются с префикса uk-. Это позволяет избежать конфликтов имен при внедрении UIkit в существующие проекты или при его объединении с другими фреймворками.
+Скин "adminkacota" имеет достаточно уникальный для Cotonti Siena интерфейс панели управления сайтом, полностью адаптивный ко всем шаблонам "Из коробки", что позволяет администратору сайта осуществлять администрирование своего проекта с самого обычного смартфона будь вы в дороге или валяетесь на диване.
+
+Проделана огромная работа по переработке шаблонов, да-бы в максимальной степени избавиться от табличной верстки и всевозможных таблиц. Цель одна - адаптивный интерфейс на современных библиотеках кода.
+###
 <p><a href="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/adminkacota.png" target="_blank"><img alt="" src="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/adminkacota.png" style="width: 920px; height: 435px;" /></a></p>
 
 ## Documentation

@@ -43,3 +43,36 @@
   display: block !important;
  }
 }
+
+hr {
+  height: 1.5px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  opacity: 0.4;
+}
+.uk-accordion-title::before {
+display: none !important;
+ content:"";
+ width:1.4em;
+ height:1.4em;
+ margin-left:10px;
+ float:right;
+ background-image:none !important;
+ background-repeat:no-repeat;
+ background-position:50% 50%
+}
+.uk-open>.uk-accordion-title::before {
+ background-image:none !important;
+}
+
+.fixed-plugin-button {
+  background: #fff;
+  border-radius: 50%;
+  bottom: 30px;
+  right: 30px;
+  font-size: 1.25rem;
+  z-index: 990;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.16);
+  cursor: pointer;
+}

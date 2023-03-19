@@ -12,60 +12,45 @@
     <nav class="mt-2 sidebar">
       <ul class="nav flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Home}" href="{PHP|cot_url('admin')}" class="nav-link text-light <!-- IF !{PHP.m} -->active <!-- ENDIF--> d-flex align-items-center">
+          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Home}" href="{PHP|cot_url('admin')}" class="nav-link text-light d-flex align-items-center">
             <i class="fa-solid fa-house-flag fs-3 flex-shrink-0 text-primary"></i>
             <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Home}</span>
           </a>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.config_title}" href="{PHP|cot_url('admin', 'm=config')}" class="nav-link text-light <!-- IF {PHP.m} == 'config' -->active <!-- ENDIF--> d-flex align-items-center">
+          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.config_title}" href="{PHP|cot_url('admin', 'm=config')}" class="nav-link text-light d-flex align-items-center">
             <i class="fa-solid fa-cog fs-3 flex-shrink-0 text-danger"></i>
             <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Configuration}</span>
           </a>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.ext_title}" href="{PHP|cot_url('admin', 'm=extensions', '&sort=cat')}" class="nav-link text-light <!-- IF !{PHP.m} -->active <!-- ENDIF--> d-flex align-items-center">
+          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.ext_title}" href="{PHP|cot_url('admin', 'm=extensions', '&sort=cat')}" class="nav-link text-light d-flex align-items-center">
             <i class="fa-solid fa-screwdriver-wrench fs-3 flex-shrink-0 text-warning"></i>
             <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Extensions}</span>
           </a>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Users}" href="{PHP|cot_url('admin', 'm=users')}" class="nav-link text-light <!-- IF {PHP.m} == 'config' -->active <!-- ENDIF--> d-flex align-items-center">
+          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Users}" href="{PHP|cot_url('admin', 'm=users')}" class="nav-link text-light d-flex align-items-center">
             <i class="fa-solid fa-users-gear fs-3 flex-shrink-0 text-lime"></i>
             <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Users}</span>
           </a>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Structure}" href="{PHP|cot_url('admin', 'm=structure')}" class="nav-link text-light <!-- IF {PHP.m} == 'structure' -->active <!-- ENDIF--> d-flex align-items-center">
+          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Structure}" href="{PHP|cot_url('admin', 'm=structure')}" class="nav-link text-light d-flex align-items-center">
             <i class="fa-solid fa-list-ol fs-3 flex-shrink-0 text-orange"></i>
             <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Structure}</span>
           </a>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.extrafield_title}" href="{PHP|cot_url('admin', 'm=extrafields')}" class="nav-link text-light <!-- IF {PHP.m} == 'extrafields' -->active <!-- ENDIF--> d-flex align-items-center">
+          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.extrafield_title}" href="{PHP|cot_url('admin', 'm=extrafields')}" class="nav-link text-light d-flex align-items-center">
             <i class="fa-solid fa-shapes fs-3 flex-shrink-0 text-maroon"></i>
             <span class="flex-grow-1 ms-2 d-inline-block ">{PHP.L.extrafield_forms}</span>
           </a>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Other}" href="{PHP|cot_url('admin', 'm=other')}" class="nav-link text-light d-flex align-items-center">
-            <i class="fa-solid fa-building-circle-exclamation fs-3 flex-shrink-0 text-olive"></i>
-            <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Other}</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Info}" href="{PHP.db_users|cot_url('admin','m=infos')}" class="nav-link text-light d-flex align-items-center">
-            <i class="fa-solid fa-circle-info fs-3 flex-shrink-0 text-info"></i>
-            <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Info}</span>
-          </a>
-        </li>
-        <li class="nav-item progress progress-xxs my-2">
-          <span class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></span>
-        </li>
-        <li class="nav-item">
-          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.adm_log}" href="{PHP.db_users|cot_url('admin','m=log')}" class="nav-link text-light d-flex align-items-center">
-            <i class="fa-solid fa-timeline fs-3 flex-shrink-0 text-green"></i>
-            <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.adm_log}</span>
+          <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Addition_Other}" href="{PHP|cot_url('admin', 'm=other')}" class="nav-link text-light d-flex align-items-center">
+            <i class="fa-regular fa-square-plus fs-3 flex-shrink-0 text-secondary"></i>
+            <span class="flex-grow-1 ms-2 d-inline-block text-truncate" style="max-width: 150px;">{PHP.L.Addition_Other}</span>
           </a>
         </li>
         <!-- 
@@ -97,7 +82,7 @@
   <!-- Left navbar links -->
   <ul class="navbar-nav">
     <li class="nav-item mx-1">
-      <a class="btn btn-block bg-gradient-secondary btn-lg elevation-4" data-widget="pushmenu" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.Menu}">
+      <a class="btn btn-block bg-gradient-navy btn-lg elevation-4" data-widget="pushmenu" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.Menu}">
         <i class="fa-solid fa-outdent"></i>
       </a>
     </li>
@@ -129,14 +114,14 @@
     <!-- ENDIF -->
     <!-- IF {PHP.cot_modules.pfs} -->
     <li class="nav-item d-none d-sm-inline-block mx-1">
-      <a class="btn btn-block bg-gradient-navy btn-lg elevation-4" href="{PHP|cot_url('admin', 'm=pfs')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.pfs_module_title_adm}">
+      <a class="btn btn-block bg-gradient-green btn-lg elevation-4" href="{PHP|cot_url('admin', 'm=pfs')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.pfs_module_title_adm}">
         <i class="fa-solid fa-file-zipper"></i>
       </a>
     </li>
     <!-- ENDIF -->
     <!-- IF {PHP.cot_plugins_active.comments} -->
     <li class="nav-item d-none d-sm-inline-block mx-1">
-      <a class="btn btn-block bg-gradient-warning color-palette btn-lg elevation-4" href="{PHP|cot_url('admin','m=other&p=comments')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.comments_title_adm}">
+      <a class="btn btn-block bg-gradient-warning  btn-lg elevation-4" href="{PHP|cot_url('admin','m=other&p=comments')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.comments_title_adm}">
         <i class="fa-solid fa-comment-dots"></i>
       </a>
     </li>
@@ -144,11 +129,11 @@
     <!-- IF {PHP.cot_plugins_active.contact} -->
     <li class="nav-item d-none d-sm-inline-block mx-1">
       <!-- IF {PHP.notify_contact.1} -->
-      <a class="btn btn-block bg-gradient-fuchsia color-palette btn-lg elevation-4" href="{PHP|cot_url('admin','m=other&p=contact')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.notify_contact.1}">
+      <a class="btn btn-block bg-gradient-fuchsia  btn-lg elevation-4" href="{PHP|cot_url('admin','m=other&p=contact')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.notify_contact.1}">
         <i class="fa-solid fa-comment-sms fa-spin"></i>
       </a>
       <!-- ELSE -->
-      <a class="btn btn-block bg-lightblue color-palette btn-lg elevation-4" href="{PHP|cot_url('admin','m=other&p=contact')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.Contacts_form_feedback}">
+      <a class="btn btn-block bg-lightblue  btn-lg elevation-4" href="{PHP|cot_url('admin','m=other&p=contact')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.Contacts_form_feedback}">
         <i class="fa-solid fa-envelope"></i>
       </a>
       <!-- ENDIF -->
@@ -158,9 +143,11 @@
   <!-- Right navbar links -->
   <ul class="navbar-nav ml-auto">
     <!-- Messages Menu -->
-	<!-- IF {PHP.cot_modules.pfs} -->
+    <!-- IF {PHP.cot_modules.pfs} -->
     <li class="nav-item">
-      <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Private_Messages}" href="{PHP|cot_url('pm')}" class="nav-link text-light <!-- IF !{PHP.m} -->active <!-- ENDIF--> d-flex align-items-center">
+      <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.Private_Messages}" href="{PHP|cot_url('pm')}" class="nav-link text-light 
+				<!-- IF !{PHP.m} -->active 
+				<!-- ENDIF--> d-flex align-items-center">
         <i class="fa-solid fa-envelope-open-text fs-3 flex-shrink-0 text-primary"></i>
         <span class="flex-grow-1 d-inline-block"></span>
         <!-- IF {PHP.usr.messages} -->
@@ -170,28 +157,27 @@
         <!-- ENDIF-->
       </a>
     </li>
-	<!-- ENDIF-->
-    <!-- Go Sait -->
-    <li class="nav-item d-none d-sm-inline-block mx-1">
-      <a id="logout" class="btn btn-block bg-gradient-success color-palette btn-lg elevation-4" href="{PHP.cfg.mainurl}" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.hea_viewsite}">
+    <!-- ENDIF-->
+    <!-- view frontend -->
+    <li class="nav-item mx-1">
+      <a class="btn btn-block bg-gradient-success btn-lg elevation-4" href="{PHP.cfg.mainurl}" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.hea_viewsite}">
         <i class="fa-solid fa-person-walking-arrow-right"></i>
       </a>
     </li>
     <li class="nav-item d-none d-sm-inline-block mx-1">
-      <a data-widget="control-sidebar" data-slide="true" href="#" role="button" class="btn btn-block bg-gradient-navy color-palette btn-lg elevation-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.magic_menu}">
+      <a data-widget="control-sidebar" data-slide="true" href="#" role="button" class="btn btn-block bg-gradient-navy  btn-lg elevation-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.magic_menu}">
         <i class="fa-solid fa-wand-magic-sparkles"></i>
       </a>
     </li>
     <!-- Logout -->
     <li class="nav-item d-none d-sm-inline-block mx-1">
-      <a id="logout" class="btn btn-block bg-gradient-maroon color-palette btn-lg elevation-4" href="{PHP.sys.xk|cot_url('login', 'out=1&x=$this', '', 0, 1)}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.Logout}">
+      <a id="logout" class="btn btn-block bg-gradient-maroon  btn-lg elevation-4" href="{PHP.sys.xk|cot_url('login', 'out=1&x=$this', '', 0, 1)}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.Logout}">
         <i class="fa-solid fa-power-off"></i>
       </a>
     </li>
   </ul>
 </nav>
-<!-- /.navbar -->
-<!-- Content Wrapper. Contains page content -->
+<!--  Wrapper  Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
   <div class="content-header">
@@ -213,16 +199,23 @@
   </div>
   <section id="content" class="content">
     <div class="container-fluid">
-    <div id="ajaxBlock" class="row">
+      <div id="ajaxBlock" class="row">
         <!-- BEGIN: BODY --> {ADMIN_MAIN}
         <!-- IF {ADMIN_HELP} -->
-        <div class="col-md-12">
-          <div class="alert alert-info  alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-            <h5>
-              <i class="icon fas fa-info"></i> {PHP.L.Help}:
-            </h5>
-            <p>{ADMIN_HELP}</p>
+        <div class="col-12 py-4">
+          <div class="uk-card uk-border-rounded border-primary uk-card-small uk-alert-primary" uk-alert>
+            <a class="uk-alert-close text-navy" uk-close></a>
+            <div class="uk-card-header">
+              <div class="uk-grid-small uk-flex-middle" uk-grid>
+                <div class="uk-width-auto">
+                  <i class="fa-solid fa-circle-question fs-1"></i>
+                </div>
+                <div class="uk-width-expand">
+                  <h3 class="uk-card-title text-navy uk-margin-remove-bottom">{PHP.L.Help}</h3>
+                </div>
+              </div>
+            </div>
+            <div class="uk-card-body"> {ADMIN_HELP} </div>
           </div>
         </div>
         <!-- ENDIF -->

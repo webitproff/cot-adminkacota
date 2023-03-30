@@ -10,7 +10,7 @@ UIkit + Bootstrap личное мое мнение - это прекрасная
 
 Проделана огромная работа по переработке шаблонов, да-бы в максимальной степени избавиться от табличной верстки и всевозможных таблиц. Цель одна - адаптивный интерфейс на современных библиотеках кода.
 ###
-<p><a href="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/adminkacota.png" target="_blank"><img alt="" src="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/adminkacota.png" style="width: 920px; height: 435px;" /></a></p>
+
 
 ## Documentation
 

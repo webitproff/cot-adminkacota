@@ -1,0 +1,13 @@
+<svg width="256px" height="256px" viewBox="0 0 48.00 48.00" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff" stroke-width="0.8640000000000001">
+<g id="SVGRepo_bgCarrier" stroke-width="0">
+<path transform="translate(0, 0), scale(3)" fill="#c0c0c0" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"/>
+</g>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<title>70 Basic icons by Xicons.co</title>
+<path d="M1,18.42L22.46,44.16a2,2,0,0,0,3.07,0L47,18.42H1Z" fill="#ff5151"/>
+<path d="M36.6,3.42H11.4A4,4,0,0,0,7.87,5.53L1,18.42H47L40.13,5.53A4,4,0,0,0,36.6,3.42Z" fill="#ff5151"/>
+<path d="M22.08,43.38L15,18.42H33l-7.08,25A2,2,0,0,1,22.08,43.38Z" fill="#ff0080"/>
+<polygon points="33 18.42 15 18.42 14 3.42 34 3.42 33 18.42" fill="#ff00ff"/>
+</g>
+</svg>

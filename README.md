@@ -1,9 +1,7 @@
 # cot-adminkacota
 Admin Dashboard Theme for Cotonti Siena on BootStrap 5.3 &amp; UIkit 3
 ###
-<p><a href="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/screens/adminkacota_001.png"><img loading="lazy" src="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/screens/adminkacota_001.png" width="860" height="420" alt=""></a></p>
-<p><a href="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/screens/adminkacota_002.png"><img loading="lazy" src="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/screens/adminkacota_002.png" width="860" height="420" alt=""></a></p>
-<p><a href="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/screens/adminkacota_003.png"><img loading="lazy" src="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/screens/adminkacota_003.png" width="860" height="420" alt=""></a></p>
+<p><a href="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/adminkacota.png"><img loading="lazy" src="https://raw.githubusercontent.com/webitproff/cot-adminkacota/main/adminkacota.png" width="860" height="420" alt=""></a></p>
 ###
 
 # UIkit + Bootstrap != conflicts

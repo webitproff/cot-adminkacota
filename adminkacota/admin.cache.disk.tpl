@@ -1,5 +1,5 @@
 <!-- BEGIN: MAIN -->
-<div class="container px-0">
+<div class="container px-0" uk-height-viewport="expand: true">
   <div class="card card-navy card-outline mb-5">
     <div class="card-header" style="background-color: var(--bs-dark-bg-subtle);">
       <!-- About using style="background-color: var(--bs-dark-bg-subtle);" read here https://getbootstrap.com/docs/5.3/customize/color/#colors -->

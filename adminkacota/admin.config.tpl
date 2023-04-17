@@ -27,16 +27,20 @@
           <div class="col-md-4 col-sm-12">
             <strong>{PHP.L.Parameter}</strong>
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-7 col-sm-12">
             <strong>{PHP.L.Value}</strong>
           </div>
-          <div class="col-md-2 col-sm-12">
+          <div class="col-md-1 col-sm-12">
             <strong>{PHP.L.Action}</strong>
           </div>
         </div>
         <hr>
+		<ul class="uk-list uk-list-striped">
         <!-- BEGIN: ADMIN_CONFIG_ROW -->
+		
+		<li>
         <!-- BEGIN: ADMIN_CONFIG_FIELDSET_BEGIN -->
+		
         <div class="bg-light px-2 pb-2 mb-4 elevation-1 rounded">
           <h6>
             <strong>{ADMIN_CONFIG_FIELDSET_TITLE}</strong>
@@ -66,7 +70,10 @@
         <!-- END: ADMIN_CONFIG_ROW_OPTION -->
         <!-- BEGIN: ADMIN_CONFIG_FIELDSET_END -->
         <!-- END: ADMIN_CONFIG_FIELDSET_END -->
+		</li>
+		
         <!-- END: ADMIN_CONFIG_ROW -->
+		</ul>
       </div>
       <div class="card-footer d-flex justify-content-md-end justify-content-center py-3">
         <button type="submit" class="mx-3 btn bg-gradient-primary btn-lg elevation-4">

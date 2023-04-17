@@ -132,20 +132,20 @@
           <div class="col-lg-4 col-12 my-2 my-md-1">
             <div class="row text-center">
               <div class="col-md-3 col-12 my-2 my-md-1">
-                <a title="{PHP.L.Options}" href="{ADMIN_STRUCTURE_OPTIONS_URL}" class="btn btn-outline-dark btn-block">{PHP.L.short_config}</a>
+                <a title="{PHP.L.Options}" href="{ADMIN_STRUCTURE_OPTIONS_URL}" class="btn btn-outline-dark btn-block">{PHP.L.Config}</a>
               </div>
               <!-- IF {ADMIN_STRUCTURE_RIGHTS_URL} -->
               <div class="col-md-3 col-12 my-2 my-md-1">
-                <a href="{ADMIN_STRUCTURE_RIGHTS_URL}" class="btn btn-outline-dark btn-block">{PHP.L.short_rights}</a>
+                <a href="{ADMIN_STRUCTURE_RIGHTS_URL}" class="btn btn-outline-dark btn-block">{PHP.L.Rights}</a>
               </div>
               <!-- ENDIF -->
               <!-- IF {ADMIN_STRUCTURE_CAN_DELETE} -->
               <div class="col-md-3 col-12 my-2 my-md-1">
-                <a href="{ADMIN_STRUCTURE_DELETE_CONFIRM_URL}" class="confirmLink btn btn-outline-dark btn-block">{PHP.L.short_delete}</a>
+                <a href="{ADMIN_STRUCTURE_DELETE_CONFIRM_URL}" class="confirmLink btn btn-outline-dark btn-block">{PHP.L.Delete}</a>
               </div>
               <!-- ENDIF -->
               <div class="col-md-3 col-12 my-2 my-md-1">
-                <a href="{ADMIN_STRUCTURE_JUMPTO_URL}" title="{PHP.L.Pages}" class="btn btn-outline-dark btn-block">{PHP.L.short_open}</a>
+                <a href="{ADMIN_STRUCTURE_JUMPTO_URL}" title="{PHP.L.Pages}" class="btn btn-outline-dark btn-block">{PHP.L.Open}</a>
               </div>
             </div>
           </div>

@@ -114,7 +114,7 @@
     <!-- ENDIF -->
     <!-- IF {PHP.cot_modules.pfs} -->
     <li class="nav-item d-none d-sm-inline-block mx-1">
-      <a class="btn btn-block bg-gradient-green btn-lg elevation-4" href="{PHP|cot_url('admin', 'm=pfs')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.pfs_module_title_adm}">
+      <a class="btn btn-block bg-gradient-green btn-lg elevation-4" target="_blank" href="{PHP|cot_url('pfs')}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="{PHP.L.pfs_module_title_adm}">
         <i class="fa-solid fa-file-zipper"></i>
       </a>
     </li>
@@ -139,6 +139,21 @@
       <!-- ENDIF -->
     </li>
     <!-- ENDIF -->
+    <!-- IF {PHP.cot_plugins_active.contactcallme} -->
+    <li class="nav-item d-none d-sm-inline-block mx-1">
+      <a data-bs-toggle="tooltip" data-bs-title="{PHP.L.contactcallme_adm_title}" href="{PHP|cot_url('admin','m=other&p=contactcallme')}" class="btn btn-block btn-default btn-lg elevation-4 p-1 
+				<!-- IF !{PHP.m} -->active 
+				<!-- ENDIF--> d-flex align-items-center">
+				<img src="plugins/contactcallme/contactcallme.png" width="38" height="38">
+		<!-- IF {PHP.notify_contactcallme.1} -->
+        <span class="right badge badge-danger navbar-badge fs-6 fw-bold">1+</span>
+        <!-- ELSE -->
+        <span class="badge badge-secondary navbar-badge">0</span>
+        <!-- ENDIF-->
+      </a>
+    </li>
+    <!-- ENDIF-->
+
   </ul>
   <!-- Right navbar links -->
   <ul class="navbar-nav ml-auto">

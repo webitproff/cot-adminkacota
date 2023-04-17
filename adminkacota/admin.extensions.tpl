@@ -198,7 +198,7 @@
                     <li>
                       <a class="dropdown-item" title="{PHP.L.Rights}" href="{ADMIN_EXTENSIONS_RIGHTS_URL}">
                         <i class="fa fa-lock"></i>
-                        <span>{PHP.L.short_rights}</span>
+                        <span>{PHP.L.Rights}</span>
                       </a>
                     </li>
                     <li>

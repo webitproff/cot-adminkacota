@@ -23,7 +23,7 @@ Resources::addFile('themes/admin/adminkacota/_allsrc/_libs/overlayScrollbars/css
 Resources::addFile('themes/admin/adminkacota/css/adminkacota.css', 'css', 200);
 
 Resources::linkFileFooter(cot::$cfg['themes_dir'].'/admin/adminkacota/_allsrc/_uikit3/js/uikit.min.js', 'js', 300);
-
+Resources::linkFileFooter(cot::$cfg['themes_dir'].'/admin/adminkacota/_allsrc/_uikit3/js/uikit-icons.min.js', 'js', 300);
 // https://getuikit.com/docs/introduction 
 // модульный front-end framework для разработки быстрых и мощных веб-интерфейсов.
 // не отключать!

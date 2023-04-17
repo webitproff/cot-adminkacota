@@ -87,7 +87,7 @@
                             <td>{PHP.L.Alias}:</td>
                             <td>{ADMIN_USERS_NGRP_ALIAS}</td>
                         </tr>
-                        <!-- IF {PHP.pfs_is_active} -->
+                         <!-- IF {PHP|cot_module_active('pfs')} -->
                         <tr>
                             <td>{PHP.L.adm_maxsizesingle}:</td>
                             <td>{ADMIN_USERS_NGRP_PFS_MAXFILE}</td>
@@ -95,6 +95,22 @@
                         <tr>
                             <td>{PHP.L.adm_maxsizeallpfs}:</td>
                             <td>{ADMIN_USERS_NGRP_PFS_MAXTOTAL}</td>
+                        </tr>
+                        <!-- ENDIF -->
+						<!-- Обязательно берем в условие "ADMIN_USERS_NGRP_PFS_MAX***" 
+						потому, что модули PFS и Files используют этот тег -->
+                        <!-- IF {PHP|cot_module_active('files')} -->
+                        <tr>
+                            <td>{PHP.L.adm_maxsizesingle}:<br>(2147483647) - это Максимальный размер всех файлов: 2,1 GB</td>
+                            <td>{ADMIN_USERS_NGRP_PFS_MAXFILE}</td>
+                        </tr>
+                        <tr>
+                            <td>{PHP.L.adm_maxsizeallpfs}:<br>(10000000) - это Максимальный размер файла: 10,0 MB</td>
+                            <td>{ADMIN_USERS_NGRP_PFS_MAXTOTAL}</td>
+                        </tr>
+                        <tr>
+                            <td>Максимальное число файлов для каждой формы: <br>(1 - 12)</td>
+                            <td>{ADMIN_USERS_NGRP_ATTACH_PER_POST}</td>
                         </tr>
                         <!-- ENDIF -->
                         <tr>
@@ -167,6 +183,22 @@
                     <td>{ADMIN_USERS_EDITFORM_GRP_PFS_MAXTOTAL}</td>
                 </tr>
                 <!-- ENDIF -->
+				<!-- Обязательно берем в условие "ADMIN_USERS_EDITFORM_GRP_PFS_MAX***" 
+				потому, что модули PFS и Files используют этот тег -->
+				<!-- IF {PHP|cot_module_active('files')} -->
+				<tr>
+					<td>{PHP.L.adm_maxsizesingle}:<br>(2147483647) - это Максимальный размер всех файлов: 2,1 GB</td>
+					<td>{ADMIN_USERS_EDITFORM_GRP_PFS_MAXFILE}</td>
+				</tr>
+				<tr>
+					<td>{PHP.L.adm_maxsizeallpfs}:<br>(10000000) - это Максимальный размер файла: 10,0 MB</td>
+					<td>{ADMIN_USERS_EDITFORM_GRP_PFS_MAXTOTAL}</td>
+				</tr>
+				<tr>
+					<td>Максимальное число файлов для каждой формы: <br>(1 - 12)</td>
+					<td>{ADMIN_USERS_EDITFORM_GRP_ATTACH_PER_POST}</td>
+				</tr>
+				<!-- ENDIF -->
                 <tr>
                     <td>{PHP.L.Disabled}:</td>
                     <td>{ADMIN_USERS_EDITFORM_GRP_DISABLED}</td>
